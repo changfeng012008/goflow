@@ -3,7 +3,7 @@ package exporter
 import (
 	"fmt"
 
-	sdk "github.com/changfeng_012008/goflow/core/sdk"
+	sdk "github.com/changfeng012008/goflow/core/sdk"
 )
 
 // Exporter

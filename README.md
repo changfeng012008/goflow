@@ -1,7 +1,7 @@
-# Go-Flow  &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Start%20writing%20your%20distributed%20workflow%20in%20Golang%20with%20GoFlow&url=https://github.com/changfeng_012008/goflow&hashtags=golang,workflow,distributedcomputing,framework)
+# Go-Flow  &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Start%20writing%20your%20distributed%20workflow%20in%20Golang%20with%20GoFlow&url=https://github.com/changfeng012008/goflow&hashtags=golang,workflow,distributedcomputing,framework)
 
-![Build](https://github.com/changfeng_012008/goflow/workflows/GO-Flow-Build/badge.svg) 
-[![GoDoc](https://godoc.org/github.com/changfeng_012008/goflow?status.svg)](https://godoc.org/github.com/changfeng_012008/goflow)
+![Build](https://github.com/changfeng012008/goflow/workflows/GO-Flow-Build/badge.svg) 
+[![GoDoc](https://godoc.org/github.com/changfeng012008/goflow?status.svg)](https://godoc.org/github.com/changfeng012008/goflow)
 
 
 ![Gopher staring_at flow](doc/goflow-gopher.png)
@@ -15,11 +15,11 @@ GoFlow executes your tasks on an array of workers by uniformly distributing the 
 Install GoFlow
 ```sh
 go mod init myflow
-go get github.com/changfeng_012008/goflow
+go get github.com/changfeng012008/goflow
 ```
 
 ## Write First Flow
-> Library to Build Flow `github.com/changfeng_012008/goflow/flow/v1`
+> Library to Build Flow `github.com/changfeng012008/goflow/flow/v1`
 
 [![GoDoc](https://godoc.org/github.com/faasflow/goflow/flow?status.svg)](https://godoc.org/github.com/faasflow/goflow/flow)
 
@@ -29,8 +29,8 @@ package main
 
 import (
 	"fmt"
-	goflow "github.com/changfeng_012008/goflow/v1"
-	flow "github.com/changfeng_012008/goflow/flow/v1"
+	goflow "github.com/changfeng012008/goflow/v1"
+	flow "github.com/changfeng012008/goflow/flow/v1"
 )
 
 // Workload function

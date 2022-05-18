@@ -2,7 +2,7 @@ package eventhandler
 
 import (
 	"fmt"
-	"github.com/changfeng_012008/goflow/core/runtime"
+	"github.com/changfeng012008/goflow/core/runtime"
 	"net/http"
 
 	"github.com/opentracing/opentracing-go"

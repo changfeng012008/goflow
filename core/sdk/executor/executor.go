@@ -10,7 +10,7 @@ import (
 
 	hmac "github.com/alexellis/hmac"
 	xid "github.com/rs/xid"
-	sdk "github.com/changfeng_012008/goflow/core/sdk"
+	sdk "github.com/changfeng012008/goflow/core/sdk"
 )
 
 // RawRequest a raw request for the flow
